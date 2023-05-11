@@ -42,6 +42,49 @@ section h2 {
     margin-bottom: 20px;
 }
 
+/* Experience Section */
+/* Experience section */
+#experience .experience-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#experience .experience-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#experience .experience-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#experience .experience-box h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/* Job title and date */
+#experience .experience-box .job-title-date {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -40px;
+}
+
+/* Company and location */
+#experience .experience-box .company-location {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+
 /* Footer styling */
 footer {
     background-color: #f4f4f4;
